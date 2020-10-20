@@ -1,0 +1,6 @@
+﻿@model int
+<div>
+    <a class="btn-link border-right" asp-action="Edit" asp-route-id="@Model">Edit&nbsp;&nbsp;&nbsp;</a>
+    &nbsp;
+    <a class="btn-link" asp-action="Delete" asp-route-id="@Model" onclick="return confirm('Are you sure you wanna delete')">Delete</a>
+</div>

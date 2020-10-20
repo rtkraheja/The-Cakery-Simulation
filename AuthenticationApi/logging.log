@@ -1,0 +1,247 @@
+INFO  10:06:56 Application started. Press Ctrl+C to shut down.
+INFO  10:06:56 Application started. Press Ctrl+C to shut down.
+INFO  10:06:56 Hosting environment: Development
+INFO  10:06:56 Hosting environment: Development
+INFO  10:06:56 Content root path: C:\Users\Ritik\source\repos\Cake Shop\AuthenticationApi
+INFO  10:06:56 Content root path: C:\Users\Ritik\source\repos\Cake Shop\AuthenticationApi
+INFO  10:10:30 Application started. Press Ctrl+C to shut down.
+INFO  10:10:30 Application started. Press Ctrl+C to shut down.
+INFO  10:10:30 Hosting environment: Development
+INFO  10:10:30 Hosting environment: Development
+INFO  10:10:30 Content root path: C:\Users\Ritik\source\repos\Cake Shop\AuthenticationApi
+INFO  10:10:30 Content root path: C:\Users\Ritik\source\repos\Cake Shop\AuthenticationApi
+INFO  10:11:14 Authentication Started
+INFO  10:11:14 Authenticating user from database
+INFO  10:11:16 Authentication Failed
+INFO  10:11:23 Authentication Started
+INFO  10:11:23 Authenticating user from database
+INFO  10:11:23 User Authenticated
+INFO  10:11:23 Generatin Token
+INFO  12:29:30 Application started. Press Ctrl+C to shut down.
+INFO  12:29:30 Application started. Press Ctrl+C to shut down.
+INFO  12:29:30 Hosting environment: Development
+INFO  12:29:30 Hosting environment: Development
+INFO  12:29:30 Content root path: C:\Users\Ritik\source\repos\Cake Shop\AuthenticationApi
+INFO  12:29:30 Content root path: C:\Users\Ritik\source\repos\Cake Shop\AuthenticationApi
+INFO  12:31:00 Authentication Started
+INFO  12:31:00 Authenticating user from database
+INFO  12:31:01 Authentication Failed
+INFO  12:31:08 Authentication Started
+INFO  12:31:08 Authenticating user from database
+INFO  12:31:08 User Authenticated
+INFO  12:31:08 Generating Token
+INFO  12:41:03 Application started. Press Ctrl+C to shut down.
+INFO  12:41:03 Application started. Press Ctrl+C to shut down.
+INFO  12:41:04 Hosting environment: Development
+INFO  12:41:04 Hosting environment: Development
+INFO  12:41:04 Content root path: C:\Users\Ritik\source\repos\Cake Shop\AuthenticationApi
+INFO  12:41:04 Content root path: C:\Users\Ritik\source\repos\Cake Shop\AuthenticationApi
+INFO  12:42:03 Authentication Started
+INFO  12:42:03 Authenticating user from database
+INFO  12:42:05 Authentication Failed
+INFO  12:42:19 Authentication Started
+INFO  12:42:19 Authenticating user from database
+INFO  12:42:19 User Authenticated
+INFO  12:42:19 Generating Token
+INFO  03:05:58 Application started. Press Ctrl+C to shut down.
+INFO  03:05:58 Application started. Press Ctrl+C to shut down.
+INFO  03:05:58 Hosting environment: Development
+INFO  03:05:58 Hosting environment: Development
+INFO  03:05:58 Content root path: C:\Users\Ritik\source\repos\Cake Shop\AuthenticationApi
+INFO  03:05:58 Content root path: C:\Users\Ritik\source\repos\Cake Shop\AuthenticationApi
+INFO  03:21:10 Application started. Press Ctrl+C to shut down.
+INFO  03:21:10 Application started. Press Ctrl+C to shut down.
+INFO  03:21:10 Hosting environment: Development
+INFO  03:21:10 Hosting environment: Development
+INFO  03:21:10 Content root path: C:\Users\Ritik\source\repos\Cake Shop\AuthenticationApi
+INFO  03:21:10 Content root path: C:\Users\Ritik\source\repos\Cake Shop\AuthenticationApi
+INFO  03:25:05 Application started. Press Ctrl+C to shut down.
+INFO  03:25:05 Application started. Press Ctrl+C to shut down.
+INFO  03:25:05 Hosting environment: Development
+INFO  03:25:05 Hosting environment: Development
+INFO  03:25:05 Content root path: C:\Users\Ritik\source\repos\Cake Shop\AuthenticationApi
+INFO  03:25:05 Content root path: C:\Users\Ritik\source\repos\Cake Shop\AuthenticationApi
+INFO  03:25:49 Authentication Started
+INFO  03:25:49 Authenticating user from database
+INFO  03:25:51 User Authenticated
+INFO  03:25:51 Generating Token
+INFO  03:29:34 Application started. Press Ctrl+C to shut down.
+INFO  03:29:34 Application started. Press Ctrl+C to shut down.
+INFO  03:29:34 Hosting environment: Development
+INFO  03:29:34 Hosting environment: Development
+INFO  03:29:34 Content root path: C:\Users\Ritik\source\repos\Cake Shop\AuthenticationApi
+INFO  03:29:34 Content root path: C:\Users\Ritik\source\repos\Cake Shop\AuthenticationApi
+INFO  03:39:56 Application started. Press Ctrl+C to shut down.
+INFO  03:39:56 Application started. Press Ctrl+C to shut down.
+INFO  03:39:56 Hosting environment: Development
+INFO  03:39:56 Hosting environment: Development
+INFO  03:39:56 Content root path: C:\Users\Ritik\source\repos\Cake Shop\AuthenticationApi
+INFO  03:39:56 Content root path: C:\Users\Ritik\source\repos\Cake Shop\AuthenticationApi
+INFO  12:15:21 Application started. Press Ctrl+C to shut down.
+INFO  12:15:21 Application started. Press Ctrl+C to shut down.
+INFO  12:15:21 Hosting environment: Development
+INFO  12:15:21 Hosting environment: Development
+INFO  12:15:21 Content root path: C:\Users\Ritik\source\repos\Cake Shop\AuthenticationApi
+INFO  12:15:21 Content root path: C:\Users\Ritik\source\repos\Cake Shop\AuthenticationApi
+INFO  12:15:38 Authentication Started
+INFO  12:15:38 Authenticating user from database
+INFO  12:15:40 User Authenticated
+INFO  12:15:40 Generating Token
+INFO  12:16:51 Authentication Started
+INFO  12:16:51 Authenticating user from database
+INFO  12:16:51 User Authenticated
+INFO  12:16:51 Generating Token
+INFO  12:22:14 Application started. Press Ctrl+C to shut down.
+INFO  12:22:14 Application started. Press Ctrl+C to shut down.
+INFO  12:22:14 Hosting environment: Development
+INFO  12:22:14 Hosting environment: Development
+INFO  12:22:14 Content root path: C:\Users\Ritik\source\repos\Cake Shop\AuthenticationApi
+INFO  12:22:14 Content root path: C:\Users\Ritik\source\repos\Cake Shop\AuthenticationApi
+INFO  12:22:30 Authentication Started
+INFO  12:22:30 Authenticating user from database
+INFO  12:22:32 User Authenticated
+INFO  12:22:32 Generating Token
+INFO  12:51:05 Application started. Press Ctrl+C to shut down.
+INFO  12:51:05 Application started. Press Ctrl+C to shut down.
+INFO  12:51:05 Hosting environment: Development
+INFO  12:51:05 Hosting environment: Development
+INFO  12:51:05 Content root path: C:\Users\Ritik\source\repos\Cake Shop\AuthenticationApi
+INFO  12:51:05 Content root path: C:\Users\Ritik\source\repos\Cake Shop\AuthenticationApi
+INFO  12:51:22 Authentication Started
+INFO  12:51:22 Authenticating user from database
+INFO  12:51:24 User Authenticated
+INFO  12:51:24 Generating Token
+INFO  12:54:07 Application started. Press Ctrl+C to shut down.
+INFO  12:54:07 Application started. Press Ctrl+C to shut down.
+INFO  12:54:07 Hosting environment: Development
+INFO  12:54:07 Hosting environment: Development
+INFO  12:54:07 Content root path: C:\Users\Ritik\source\repos\Cake Shop\AuthenticationApi
+INFO  12:54:07 Content root path: C:\Users\Ritik\source\repos\Cake Shop\AuthenticationApi
+INFO  12:54:30 Authentication Started
+INFO  01:16:41 Application started. Press Ctrl+C to shut down.
+INFO  01:16:41 Application started. Press Ctrl+C to shut down.
+INFO  01:16:41 Hosting environment: Development
+INFO  01:16:41 Hosting environment: Development
+INFO  01:16:41 Content root path: C:\Users\Ritik\source\repos\Cake Shop\AuthenticationApi
+INFO  01:16:41 Content root path: C:\Users\Ritik\source\repos\Cake Shop\AuthenticationApi
+INFO  01:16:55 Authentication Started
+INFO  01:17:38 Authentication Started
+INFO  01:39:29 Application started. Press Ctrl+C to shut down.
+INFO  01:39:29 Application started. Press Ctrl+C to shut down.
+INFO  01:39:29 Hosting environment: Development
+INFO  01:39:29 Hosting environment: Development
+INFO  01:39:29 Content root path: C:\Users\Ritik\source\repos\Cake Shop\AuthenticationApi
+INFO  01:39:29 Content root path: C:\Users\Ritik\source\repos\Cake Shop\AuthenticationApi
+INFO  01:39:57 Authentication Started
+INFO  01:45:16 Application started. Press Ctrl+C to shut down.
+INFO  01:45:16 Application started. Press Ctrl+C to shut down.
+INFO  01:45:16 Hosting environment: Development
+INFO  01:45:16 Hosting environment: Development
+INFO  01:45:16 Content root path: C:\Users\Ritik\source\repos\Cake Shop\AuthenticationApi
+INFO  01:45:16 Content root path: C:\Users\Ritik\source\repos\Cake Shop\AuthenticationApi
+INFO  01:45:33 Authentication Started
+INFO  01:51:08 Application started. Press Ctrl+C to shut down.
+INFO  01:51:08 Application started. Press Ctrl+C to shut down.
+INFO  01:51:08 Hosting environment: Development
+INFO  01:51:08 Hosting environment: Development
+INFO  01:51:08 Content root path: C:\Users\Ritik\source\repos\Cake Shop\AuthenticationApi
+INFO  01:51:08 Content root path: C:\Users\Ritik\source\repos\Cake Shop\AuthenticationApi
+INFO  02:26:36 Application started. Press Ctrl+C to shut down.
+INFO  02:26:36 Application started. Press Ctrl+C to shut down.
+INFO  02:26:36 Hosting environment: Development
+INFO  02:26:36 Hosting environment: Development
+INFO  02:26:36 Content root path: C:\Users\Ritik\source\repos\Cake Shop\AuthenticationApi
+INFO  02:26:36 Content root path: C:\Users\Ritik\source\repos\Cake Shop\AuthenticationApi
+INFO  02:27:05 Authentication Started
+INFO  02:30:22 Application started. Press Ctrl+C to shut down.
+INFO  02:30:22 Application started. Press Ctrl+C to shut down.
+INFO  02:30:22 Hosting environment: Development
+INFO  02:30:22 Hosting environment: Development
+INFO  02:30:22 Content root path: C:\Users\Ritik\source\repos\Cake Shop\AuthenticationApi
+INFO  02:30:22 Content root path: C:\Users\Ritik\source\repos\Cake Shop\AuthenticationApi
+INFO  02:30:38 Authentication Started
+INFO  02:33:56 Application started. Press Ctrl+C to shut down.
+INFO  02:33:56 Application started. Press Ctrl+C to shut down.
+INFO  02:33:56 Hosting environment: Development
+INFO  02:33:56 Hosting environment: Development
+INFO  02:33:56 Content root path: C:\Users\Ritik\source\repos\Cake Shop\AuthenticationApi
+INFO  02:33:56 Content root path: C:\Users\Ritik\source\repos\Cake Shop\AuthenticationApi
+INFO  02:34:11 Authentication Started
+INFO  02:39:13 Application started. Press Ctrl+C to shut down.
+INFO  02:39:13 Application started. Press Ctrl+C to shut down.
+INFO  02:39:13 Hosting environment: Development
+INFO  02:39:13 Hosting environment: Development
+INFO  02:39:13 Content root path: C:\Users\Ritik\source\repos\Cake Shop\AuthenticationApi
+INFO  02:39:13 Content root path: C:\Users\Ritik\source\repos\Cake Shop\AuthenticationApi
+INFO  02:39:52 Authentication Started
+INFO  02:43:26 Application started. Press Ctrl+C to shut down.
+INFO  02:43:26 Application started. Press Ctrl+C to shut down.
+INFO  02:43:26 Hosting environment: Development
+INFO  02:43:26 Hosting environment: Development
+INFO  02:43:26 Content root path: C:\Users\Ritik\source\repos\Cake Shop\AuthenticationApi
+INFO  02:43:26 Content root path: C:\Users\Ritik\source\repos\Cake Shop\AuthenticationApi
+INFO  03:04:33 Application started. Press Ctrl+C to shut down.
+INFO  03:04:33 Application started. Press Ctrl+C to shut down.
+INFO  03:04:33 Hosting environment: Development
+INFO  03:04:33 Hosting environment: Development
+INFO  03:04:33 Content root path: C:\Users\Ritik\source\repos\Cake Shop\AuthenticationApi
+INFO  03:04:33 Content root path: C:\Users\Ritik\source\repos\Cake Shop\AuthenticationApi
+INFO  03:05:02 Authentication Started
+INFO  03:43:00 Application started. Press Ctrl+C to shut down.
+INFO  03:43:00 Application started. Press Ctrl+C to shut down.
+INFO  03:43:00 Hosting environment: Development
+INFO  03:43:00 Hosting environment: Development
+INFO  03:43:00 Content root path: C:\Users\Ritik\source\repos\Cake Shop\AuthenticationApi
+INFO  03:43:00 Content root path: C:\Users\Ritik\source\repos\Cake Shop\AuthenticationApi
+INFO  03:44:03 Authentication Started
+INFO  03:47:39 Application started. Press Ctrl+C to shut down.
+INFO  03:47:39 Application started. Press Ctrl+C to shut down.
+INFO  03:47:39 Hosting environment: Development
+INFO  03:47:39 Hosting environment: Development
+INFO  03:47:39 Content root path: C:\Users\Ritik\source\repos\Cake Shop\AuthenticationApi
+INFO  03:47:39 Content root path: C:\Users\Ritik\source\repos\Cake Shop\AuthenticationApi
+INFO  03:48:34 Authentication Started
+INFO  03:52:01 Application started. Press Ctrl+C to shut down.
+INFO  03:52:01 Application started. Press Ctrl+C to shut down.
+INFO  03:52:01 Hosting environment: Development
+INFO  03:52:01 Hosting environment: Development
+INFO  03:52:01 Content root path: C:\Users\Ritik\source\repos\Cake Shop\AuthenticationApi
+INFO  03:52:01 Content root path: C:\Users\Ritik\source\repos\Cake Shop\AuthenticationApi
+INFO  03:54:45 Application started. Press Ctrl+C to shut down.
+INFO  03:54:45 Application started. Press Ctrl+C to shut down.
+INFO  03:54:45 Hosting environment: Development
+INFO  03:54:45 Hosting environment: Development
+INFO  03:54:45 Content root path: C:\Users\Ritik\source\repos\Cake Shop\AuthenticationApi
+INFO  03:54:45 Content root path: C:\Users\Ritik\source\repos\Cake Shop\AuthenticationApi
+INFO  04:08:02 Application started. Press Ctrl+C to shut down.
+INFO  04:08:02 Application started. Press Ctrl+C to shut down.
+INFO  04:08:02 Hosting environment: Development
+INFO  04:08:02 Hosting environment: Development
+INFO  04:08:02 Content root path: C:\Users\Ritik\source\repos\Cake Shop\AuthenticationApi
+INFO  04:08:02 Content root path: C:\Users\Ritik\source\repos\Cake Shop\AuthenticationApi
+INFO  04:13:03 Application started. Press Ctrl+C to shut down.
+INFO  04:13:03 Application started. Press Ctrl+C to shut down.
+INFO  04:13:03 Hosting environment: Development
+INFO  04:13:03 Hosting environment: Development
+INFO  04:13:03 Content root path: C:\Users\Ritik\source\repos\Cake Shop\AuthenticationApi
+INFO  04:13:03 Content root path: C:\Users\Ritik\source\repos\Cake Shop\AuthenticationApi
+INFO  04:13:24 Authentication Started
+INFO  04:19:42 Application started. Press Ctrl+C to shut down.
+INFO  04:19:42 Application started. Press Ctrl+C to shut down.
+INFO  04:19:42 Hosting environment: Development
+INFO  04:19:42 Hosting environment: Development
+INFO  04:19:42 Content root path: C:\Users\Ritik\source\repos\Cake Shop\AuthenticationApi
+INFO  04:19:42 Content root path: C:\Users\Ritik\source\repos\Cake Shop\AuthenticationApi
+INFO  04:19:56 Authentication Started
+INFO  04:25:35 Application started. Press Ctrl+C to shut down.
+INFO  04:25:35 Application started. Press Ctrl+C to shut down.
+INFO  04:25:35 Hosting environment: Development
+INFO  04:25:35 Hosting environment: Development
+INFO  04:25:35 Content root path: C:\Users\Ritik\source\repos\Cake Shop\AuthenticationApi
+INFO  04:25:35 Content root path: C:\Users\Ritik\source\repos\Cake Shop\AuthenticationApi
+INFO  04:28:16 Application started. Press Ctrl+C to shut down.
+INFO  04:28:17 Application started. Press Ctrl+C to shut down.
+INFO  04:28:17 Hosting environment: Development
+INFO  04:28:17 Hosting environment: Development
+INFO  04:28:17 Content root path: C:\Users\Ritik\source\repos\Cake Shop\AuthenticationApi
+INFO  04:28:17 Content root path: C:\Users\Ritik\source\repos\Cake Shop\AuthenticationApi

@@ -1,0 +1,63 @@
+﻿@model IEnumerable<Cart>
+@using Cake_Shop.Models
+
+@{
+    ViewData["Title"] = "index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="dataarea">
+    <div class="row">
+        <div class="col-4">
+            <h2 class="text-info"></h2>
+
+        </div>
+
+    </div>
+    <div class="row ">
+        <table class="table table-striped subdataarea">
+            <tr class="table-secondary">
+                <th>
+                    @Html.DisplayNameFor(m => m.Id)
+                </th>
+
+
+
+                <th>
+                    @Html.DisplayNameFor(m => m.Quantity)
+                </th>
+
+                <th>
+                    @Html.DisplayNameFor(m => m.ItemId)
+                </th>
+
+                <td></td>
+
+            </tr>
+            @foreach (var cartItem in Model)
+            {
+        <tr>
+            <td>
+                @Html.DisplayFor(m => cartItem.Id)
+            </td>
+
+
+            <td>
+                @Html.DisplayFor(m => cartItem.Quantity)
+            </td>
+
+            <td>
+                @Html.DisplayFor(m => cartItem.ItemId)
+            </td>
+
+            <td>
+                <partial name="_buttonpartial" model="cartItem.Id" />
+            </td>
+        </tr>
+
+            }
+        </table>
+    </div>
+</div>
+
+

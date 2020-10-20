@@ -1,0 +1,44 @@
+﻿@model Cake_Shop.Models.User
+@{ ViewData["Title"] = "Login";
+    Layout = "~/Views/Shared/_Layout.cshtml"; }
+
+<div class="justify-content-center  row ">
+    <h1 style="color : goldenrod"> The Cakery</h1>
+
+</div>
+<br>
+
+<div class=" row justify-content-center">
+    <h3 class="text-info">Sign In</h3>
+
+</div>
+<br>
+<br>
+
+<div class="row justify-content-center">
+
+    <div class="col-md-4 ">
+        <form asp-action="Login">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="username" class="control-label">Username</label>
+                <input asp-for="username" class="form-control">
+                <span asp-validation-for="username" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="password" class="control-label">Password</label>
+                <input asp-for="password" class="form-control" />
+                <span asp-validation-for="password" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <center>
+                    <input type="submit" value="Log In" class="btn " style="background-color:goldenrod; color: white"/>
+                </center>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

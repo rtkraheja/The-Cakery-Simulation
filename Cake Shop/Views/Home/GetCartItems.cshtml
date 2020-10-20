@@ -1,0 +1,83 @@
+﻿@model Cake_Shop.Models.Cart
+@{ ViewData["Title"] = "Welcome";
+    Layout = "~/Views/Shared/_Layout.cshtml"; }
+
+<div class="justify-content-center  row ">
+    <h1 style="color : goldenrod"> The Cakery</h1>
+
+</div>
+<br>
+
+<div class=" row justify-content-center">
+    <h3 class="text-info">Update Quantity</h3>
+
+</div>
+<br>
+<br>
+
+<div class="row justify-content-center">
+
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            
+            <div class="form-group">
+                <label asp-for="ItemId" class="control-label"></label>
+                <input asp-for="ItemId" class="form-control" readonly />
+                <span asp-validation-for="ItemId" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="@Model.item.Name" class="control-label"></label>
+                <input asp-for="@Model.item.Name" class="form-control" readonly />
+                <span asp-validation-for="@Model.item.Name" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="@Model.item.Price" class="control-label">Price</label>
+                <input id="price" asp-for="@Model.item.Price" class="form-control" readonly />
+                <span asp-validation-for="@Model.item.Price" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Quantity" class="control-label"></label>
+                <input id="quantity" asp-for="Quantity" class="form-control" />
+                <span asp-validation-for="Quantity" class="text-danger"></span>
+            </div>
+
+            
+
+
+            <div class="form-group">
+                <input type="submit" value="Confirm Order" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+
+    <script>
+        function updateprice() {
+            var p = document.getElementById("price");
+            var q = document.getElementById("quantity");
+            $finalprice = $('#total');
+            function (data) {
+                $finalprice.html('');
+                var totalamount = p * q;
+                $finalprice.append(totalamount);
+            }
+
+        }
+
+        $(document).ready(function () {
+            updateprice();
+        });
+        $("#quantity").on("change", function () {
+            updateprice();
+        });
+
+    </script>
+
+}
