@@ -92,10 +92,15 @@ namespace Cake_Shop.Controllers
         [ValidateAntiForgeryToken]
         public  ActionResult Edit(Cart cart)
         {
+            Cart temp = new Cart();
+            temp.Id = cart.Id;
+            temp.Quantity = cart.Quantity;
+            temp.ItemId = cart.ItemId;
+            temp.ItemName = cart.ItemName;
             HttpClient client = obj.CartItems();
-            var postTask = client.PutAsJsonAsync<Cart>($"api/Cart/", cart);
-            postTask.Wait();
-            var result = postTask.Result;
+            var putTask = client.PutAsJsonAsync<Cart>($"api/Cart", temp);
+            putTask.Wait();
+            var result = putTask.Result;
             if (result.IsSuccessStatusCode)
             {
                 return RedirectToAction("Index");
@@ -105,11 +110,12 @@ namespace Cake_Shop.Controllers
         }
 
         // GET: CartController/Delete/5
+        [HttpGet]
         public  ActionResult Delete(int id)
         {
             HttpClient client = obj.CartItems();
-            client.BaseAddress = new Uri("https://localhost:44322/api/");
-            var deleteTask = client.DeleteAsync("Cart/" + id.ToString());
+            //client.BaseAddress = new Uri("https://localhost:44322/api/");
+            var deleteTask = client.DeleteAsync("api/Cart/" + id);
             deleteTask.Wait();
             var result = deleteTask.Result;
             if (result.IsSuccessStatusCode)
@@ -120,19 +126,6 @@ namespace Cake_Shop.Controllers
 
         }
 
-        // POST: CartController/Delete/5
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Delete(int id, IFormCollection collection)
-        {
-            try
-            {
-                return RedirectToAction(nameof(Index));
-            }
-            catch
-            {
-                return View();
-            }
-        }
+        
     }
 }

@@ -60,20 +60,22 @@ namespace CartApi.Controllers
 
         }
 
-        // PUT api/<CartController>/5
-        [HttpPut("{id}")]
-        public void Put(Cart cart)
+        // PUT api/<CartController>
+        [HttpPut]
+        public IActionResult Put(Cart cart)
         {
             _log4net.Info("Updating Item");
             _cartRepository.Update(cart);
+            return Ok();
         }
 
         // DELETE api/<CartController>/5
         [HttpDelete("{id}")]
-        public void Delete(int id)
+        public IActionResult Delete(int id)
         {
             _log4net.Info("Deleting Item");
             _cartRepository.Remove(id);
+            return Ok();
         }
     }
 }

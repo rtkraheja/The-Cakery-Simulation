@@ -24,7 +24,7 @@ namespace CartApi.Repository
             Cart temp = new Cart();
             temp.ItemId = cartItem.ItemId;
             temp.Quantity = cartItem.Quantity;
-              
+            temp.ItemName = cartItem.ItemName;
             _db.Cart.Add(temp);
             _db.SaveChanges();
         }

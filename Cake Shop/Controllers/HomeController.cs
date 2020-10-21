@@ -43,11 +43,10 @@ namespace Cake_Shop.Controllers
 
         
 
-        public IActionResult login(int id , string name)
+        public IActionResult login(int id)
         {
             StatusMessage = "";
             TempData["ItemId"] = id;
-            TempData["ItemName"] = name;
             TempData.Keep();
             return View();
         }
@@ -111,7 +110,7 @@ namespace Cake_Shop.Controllers
 
             cart.ItemId = items.Id;
             cart.item = items;
-            
+            cart.ItemName = items.Name;
             TempData.Keep();
             return View( cart);
         }
@@ -121,8 +120,7 @@ namespace Cake_Shop.Controllers
         {
 
             HttpClient client = obj.CartItems();
-            var postTask = client.PostAsJsonAsync< Cart >($"api/Cart", cart);
-
+            var postTask = client.PostAsJsonAsync<Cart>($"api/Cart", cart);
             postTask.Wait();
             var result = postTask.Result;
             if (result.IsSuccessStatusCode)

@@ -15,6 +15,7 @@ namespace Cake_Shop.Models
         public int Quantity { get; set; }
         public int ItemId { get; set; }
 
+        public string ItemName { get; set; }
 
 
         public Item item { get; set; }
